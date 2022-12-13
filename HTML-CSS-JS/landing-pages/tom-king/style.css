@@ -1,0 +1,128 @@
+body {
+    background-color: blueviolet;
+    background-blend-mode: color;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'georgia', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+
+}
+
+.topbar {
+    background-color: skyblue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Header Image - Logo */
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.main-h1 {
+    font-family: 'georgia', serif;
+    font-size: 3.5em;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general styling */
+:root {
+    --smaller: .75;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .footer p {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+
+  
+  .container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+    display: flexbox;
+    padding-top: 100px;
+  }
+  
+  h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }

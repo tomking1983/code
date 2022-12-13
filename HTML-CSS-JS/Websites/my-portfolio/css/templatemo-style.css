@@ -51,6 +51,12 @@ hr {
   line-height: 45px;
   padding: 10px 0 0 12px;
 }
+
+.navbar-brand img {
+  width: 50%;;
+  height: auto;
+  padding: 5px;
+}
 .navbar-default .navbar-nav li a {
   color: #202020;
   font-size: 13px;
@@ -103,7 +109,15 @@ hr {
 .tm-home-title,
  .tm-home-subtitle {
   text-transform: uppercase;
+  
  }
+
+ .intro-text {
+  position: relative;
+  top: 150px;
+
+ }
+
 .tm-home-title { font-size: 60px; }
 .tm-home-subtitle {
   color: #eb5424;
