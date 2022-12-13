@@ -30,6 +30,9 @@ hr {
   padding-bottom: 40px;
   text-transform: uppercase;
 }
+.span-text {
+  color: #eb5424
+}
 
 /* START NAVIGATION */
 .sticky-navigation { opacity: 0; }
@@ -126,19 +129,20 @@ hr {
 }
 /* END HOME */
 
-/* START WORK */
+/* START services */
 .tm-padding-top-bottom-100 {
   padding-top: 100px;
   padding-bottom: 100px;
+  
 }
-.tm-work-h3 {
+.tm-services-h3 {
   color: #eb5424;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
   padding-bottom: 10px;
 }
-.work-wrapper {
+.services-wrapper {
   border: 1px solid #666;
   border-radius: 2px;
   text-align: center;
@@ -146,13 +150,13 @@ hr {
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
 }
-.work-wrapper:hover { border-color: #eb5424; }
-.work-wrapper .fa {
+.services-wrapper:hover { border-color: #621c07; }
+.services-wrapper .fa {
   color: #888888;
   font-size: 60px;
   padding-bottom: 40px;
 }
-/* END WORK */
+/* END services */
 
 /* START PORTFOLIO */
 .tm-portfolio {
@@ -177,6 +181,10 @@ hr {
   font-weight: bold;
   margin-top: 10px;
   text-transform: uppercase;
+}
+.portfolio-item-title a {
+  color: #212227;
+  font-weight: bold;
 }
 .portfolio-thumb {
   overflow: hidden;
@@ -324,12 +332,13 @@ hr {
 
 /* START ABOUT */
 .tm-about {
-  background: url('../images/about-bg.jpg');
+  background: url('../images/me.png');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
   padding-top: 60px;
   padding-bottom: 100px;
+  font-weight: bold;
 }
 /* END ABOUT */
 
