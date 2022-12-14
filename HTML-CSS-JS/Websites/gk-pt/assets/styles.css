@@ -1,0 +1,60 @@
+ body {
+    background-color: white;
+    margin: 0;
+ }
+ header {
+    background-color: rgb(135, 235, 163);
+    width: 100%;
+    height: 600px;
+ }  
+  
+  /* Navigation CSS */
+  /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
+  #navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: skyblue;
+    padding: 20px
+  }
+  #navBar h1 {
+    display: flex;
+    width: 25%;
+    font-weight: 500;
+    position: space-around;
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+  }
+
+  .highlight {
+    color: #FF6200;
+    font-weight: 700;
+  }
+
+  .social-icons {
+    margin: 5px;
+  }
+header p {
+    font-size: 100px;
+}
+
+.navi1 p {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
