@@ -10,7 +10,6 @@ body {
 .header-flex {
   display: flex;
   flex-direction: row;
-  /* background-image: url(../images/header-image.jpg); */
   background-size: 100%;
   background-repeat: no-repeat;
   justify-content: space-between;
@@ -51,11 +50,12 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-#navigation p {
+#navigation a {
   cursor: pointer;
   text-decoration: none;
+  color: black;
 }
-#navigation p:hover {
+#navigation a:hover {
   color: #ff6200;
 }
 
@@ -208,10 +208,9 @@ header video {
   justify-content: center;
 }
 
-
-
 footer {
   display: flex;
+  background-color: #fff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -265,6 +264,7 @@ textarea {
 
 #container-form {
   border: solid 3px #474544;
+  background-color: #fff;
   max-width: 768px;
   margin: 60px auto;
   position: relative;
@@ -396,7 +396,7 @@ textarea {
   color: #474544;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
@@ -412,6 +412,66 @@ textarea {
 #form_button:hover {
   background: #474544;
   color: #Fff;
+}
+
+
+.container-services {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 200px;
+  width: 98%;
+}
+
+.container-services h1 {
+  color: black;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 150px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+  width: 98%;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+
+.section-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin: 20px;
+  height: 100%;
+  width: 90%;
+}
+
+.sub-section img {
+  height: 100%;
+  width: 100%;
+
 }
 
 @media screen and (max-width: 768px) {
