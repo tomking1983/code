@@ -2,6 +2,7 @@
 :root {
   --flame: #eb5424;
   --white: #fff;
+  --baltic-sea: #24292F;
   --default-font: 'Raleway', sans-serif;
 
 }
@@ -415,6 +416,8 @@ input { height: 50px; }
 }
 /* END CONTACT */
 
+
+
 @media screen and (max-device-width: 1024px){
   .templatemo-home {
     background-attachment: scroll;
@@ -435,4 +438,141 @@ input { height: 50px; }
 @media screen and (max-width:360px){
   .navbar-default .navbar-brand {  padding-top: 2px; }
 }
+
+@media screen and (max-width:990px){
+  .navbar-brand {display: none;}
+}
 /* END MEDIA 360 */
+
+
+
+#share {
+  top: 25%;
+  left: 0;
+  position: fixed;
+  z-index: 9999;
+}
+#share a {
+  width: 35px;
+  height: 35px;
+  display: block;
+  padding: 17px;
+  margin-top: 8px;
+  font-size: 24px;
+  color: var(--white);
+  opacity: 1;
+  transition: opacity 0.15s linear;
+}
+
+#share a:hover {
+  opacity: 2;
+  color: var(--flame);
+  border-radius: 20px;
+}
+
+#share i {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translatey(-50%);
+  -webkit-transform: translateX(-50%) translatey(-50%);
+  -moz-transform: translateX(-50%) translatey(-50%);
+
+
+}
+
+.facebook {
+  background: var(--baltic-sea);
+}
+
+.twitter {
+  background: var(--baltic-sea);
+}
+
+.instagram {
+  background: var(--baltic-sea);
+}
+
+.linkedin {
+  background: var(--baltic-sea);
+}
+
+.github {
+  background: var(--baltic-sea);
+}
+
+
+/* Testimonials */
+.testimonials
+{
+  padding: 40px 0;
+  background: var(--white);
+  color: #434343;
+  text-align: center;
+}
+
+.testimonial-inner
+{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border
+{
+  width: 160px;
+  height: 5px;
+  background: var(--flame);
+  margin: 26px auto;
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col
+{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing:  border-box;
+  padding: 15px;
+}
+
+.testimonial
+{
+  background: #fff;
+  padding: 30px;
+}
+
+.testimonial img
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name
+{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.stars
+{
+  color: var(--flame);
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px)
+{
+  .col
+  {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
