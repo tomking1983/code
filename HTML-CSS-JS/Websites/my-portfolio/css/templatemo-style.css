@@ -1,14 +1,16 @@
-/*
+/* Variables */
+:root {
+  --flame: #eb5424;
+  --white: #fff;
+  --default-font: 'Raleway', sans-serif;
 
-Ultra Profile
+}
 
-https://templatemo.com/tm-464-ultra-profile
 
-*/
 
 body {
-  background: #ffffff;
-  font-family: 'Raleway', sans-serif;
+  background: var(--white);
+  font-family: var(--default-font);
   font-size: 16px;
   color: #606060;
   position: relative;
@@ -31,7 +33,7 @@ hr {
   text-transform: uppercase;
 }
 .span-text {
-  color: #eb5424
+  color: var(--flame)
 }
 
 /* START NAVIGATION */
@@ -64,16 +66,16 @@ hr {
   line-height: 45px;
   letter-spacing: 1px;
 }
-.navbar-default .navbar-nav li a:hover { color: #eb5424; }
+.navbar-default .navbar-nav li a:hover { color: var(--flame); }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #eb5424;
+  color: var(--flame);
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #eb5424;
+  color: var(--flame);
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -81,7 +83,7 @@ hr {
   padding-top: 10px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background: #eb5424;
+  background: var(--flame);
   border-color: transparent;
 }
 .navbar-default .navbar-toggle:hover,
@@ -120,14 +122,14 @@ hr {
 
 .tm-home-title { font-size: 60px; }
 .tm-home-subtitle {
-  color: #eb5424;
+  color: var(--flame);
   font-weight: bold;
   padding-bottom: 40px;
   letter-spacing: 2px;
 }
 .tm-view-more-btn {
-  background: #eb5424;
-  color: #ffffff;
+  background: var(--flame);
+  color: var(--white);
   border: none;
   border-radius: 2px;
   font-size: 20px;
@@ -138,8 +140,8 @@ hr {
           transition: all 0.6s ease-in;
 }
 .tm-view-more-btn:hover {
-  background: #ffffff;
-  color: #eb5424;
+  background: var(--white);
+  color: var(--flame);
 }
 /* END HOME */
 
@@ -150,7 +152,7 @@ hr {
   
 }
 .tm-services-h3 {
-  color: #eb5424;
+  color: var(--flame);
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -219,8 +221,8 @@ hr {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #eb5424;
-  color: #ffffff;
+  background: var(--flame);
+  color: var(--white);
   top: 0;
   right: 0;
   left: 0;
@@ -279,9 +281,9 @@ hr {
 .filter-wrapper li a:focus,
  .filter-wrapper li a:hover,
  .filter-wrapper li a.selected {
-  background: #eb5424;
+  background: var(--flame);
   border-color: transparent;
-  color: #ffffff;
+  color: var(--white);
 }
 
 /* ISOTOPE BOX CSS */
@@ -318,32 +320,6 @@ hr {
 }
 /* END PORTFOLIO */
 
-/* START My Journey */
-.tm-red-text { color: #eb5424; }
-.tm-info-label {
-  font-weight: bold;
-  display: inline-block;
-  width: 90px;
-}
-.tm-progress {
-  background: #fff;
-  border-radius: 2px;
-  height: 4px;
-}
-.progress-bar-danger { background: #eb5424; }
-.tm-progress-label {
-  font-size: 12px;
-  font-weight: bold;
-  padding-top: 10px;
-  text-transform: uppercase;
-}
-.progress-percent-small {
-  display: block;
-  float: right;
-  padding-right: 80px;
-}
-/* END My Journey */
-
 /* START ABOUT */
 .tm-about {
   background: url('../images/me.png');
@@ -353,6 +329,11 @@ hr {
   padding-top: 60px;
   padding-bottom: 100px;
   font-weight: bold;
+}
+
+.tm-about a {
+  color: var(--flame);
+  text-decoration: none;
 }
 /* END ABOUT */
 
@@ -383,12 +364,12 @@ hr {
           transition: all 0.6s ease-in;
 }
 .tm-social a {
-  color: #ffffff;
+  color: var(--white);
   display: inline-block;
   text-decoration: none;
 }
 .tm-social .media .fa {
-  background: #ffffff;
+  background: var(--white);
   border-radius: 2px;
   color: #707070;
   font-size: 30px;
@@ -399,7 +380,7 @@ hr {
   margin-right: 20px;
 }
 .tm-social-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 /* END SOCIAL */
@@ -423,10 +404,15 @@ hr {
 .form-control:focus,
  .form-control:hover {
   background: #202020;
-  color: #ffffff;
+  color: var(--white);
 }
 input { height: 50px; }
 .tm-contact p { padding-top: 40px; }
+
+.tm-contact a {
+  color: var(--flame);
+  text-decoration: none;
+}
 /* END CONTACT */
 
 @media screen and (max-device-width: 1024px){
