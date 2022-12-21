@@ -162,6 +162,8 @@ hr {
 .services-wrapper {
   border: 1px solid #666;
   border-radius: 2px;
+  margin-bottom: 30px;
+  height: 650px;
   text-align: center;
   padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;
@@ -173,6 +175,7 @@ hr {
   font-size: 60px;
   padding-bottom: 40px;
 }
+
 /* END services */
 
 /* START PORTFOLIO */
