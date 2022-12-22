@@ -33,6 +33,11 @@ hr {
   padding-bottom: 40px;
   text-transform: uppercase;
 }
+
+.tm-red-text { 
+  font-size: 50px; 
+}
+
 .span-text {
   color: var(--flame)
 }
@@ -175,6 +180,11 @@ hr {
   font-size: 60px;
   padding-bottom: 40px;
 }
+
+.services-wrapper img {
+  width: 25%;
+}
+
 
 /* END services */
 
