@@ -429,7 +429,14 @@ input { height: 50px; }
 }
 /* END CONTACT */
 
-
+@media screen and (max-width: 960px)
+{
+  .col
+  {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
 
 @media screen and (max-device-width: 1024px){
   .templatemo-home {
@@ -459,13 +466,13 @@ input { height: 50px; }
 
 
 
-#share {
-  top: 25%;
+#social {
+  top: 50%;
   left: 0;
   position: fixed;
   z-index: 9999;
 }
-#share a {
+#social a {
   width: 35px;
   height: 35px;
   display: block;
@@ -477,13 +484,13 @@ input { height: 50px; }
   transition: opacity 0.15s linear;
 }
 
-#share a:hover {
+#social a:hover {
   opacity: 2;
   color: var(--flame);
   border-radius: 20px;
 }
 
-#share i {
+#social i {
   position: relative;
   left: 50%;
   top: 50%;
@@ -581,11 +588,3 @@ input { height: 50px; }
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 960px)
-{
-  .col
-  {
-    flex: 100%;
-    max-width: 80%;
-  }
-}
