@@ -4,7 +4,6 @@
   --white: #fff;
   --baltic-sea: #24292F;
   --default-font: 'Raleway', sans-serif;
-
 }
 
 
@@ -215,6 +214,7 @@ hr {
 .portfolio-item-title a {
   color: #212227;
   font-weight: bold;
+  font-size: 16px;
 }
 .portfolio-thumb {
   overflow: hidden;
@@ -587,4 +587,3 @@ input { height: 50px; }
   color: var(--flame);
   margin-bottom: 20px;
 }
-
