@@ -26,7 +26,6 @@ body {
 }
 
 /* Navigation CSS */
-/* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
 #navBar {
   display: flex;
   flex-direction: row;
@@ -471,7 +470,12 @@ textarea {
 .sub-section img {
   height: 100%;
   width: 100%;
+}
 
+/* about me */
+
+img {
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
