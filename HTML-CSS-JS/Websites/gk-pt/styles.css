@@ -28,10 +28,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  height: 800px;
+  height: 100vh;
   margin-bottom: 80px;
   width: 100%;
-
 }
 
 .header-flex-services {
